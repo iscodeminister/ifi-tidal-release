@@ -4,10 +4,10 @@ Description=RasPi Streamer Tidal Connect Service
 Restart=on-failure
 ExecStart=/usr/ifi/ifi-tidal-release/bin/tidal_connect_application \
 				--tc-certificate-path "/usr/ifi/ifi-tidal-release/id_certificate/IfiAudio_ZenStream.dat" \
-				-f "HiTide RasPi Streamer" \
+				-f "SuperPi 4" \
 				--codec-mpegh true \
 				--codec-mqa false \
-				--model-name "HiTide RasPi Streamer" \
+				--model-name "SuperPi 4" \
 				--disable-app-security false \
 				--disable-web-security false \
 				--enable-mqa-passthrough false \
