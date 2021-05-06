@@ -6,3 +6,4 @@ device#4=dmix
 Number of devices = 5
 
 "snd_rpi_hifiberry_dacplus: HiFiBerry DAC+ HiFi pcm512x-hifi-0 (hw:2,0)"
+"Combo384 Amanero: USB Audio (hw:1,0)"
