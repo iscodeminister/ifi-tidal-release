@@ -6,7 +6,7 @@ ExecStart=/usr/ifi/ifi-tidal-release/bin/tidal_connect_application \
 				--tc-certificate-path "/usr/ifi/ifi-tidal-release/id_certificate/IfiAudio_ZenStream.dat" \
 				-f "SP4" \
 				--codec-mpegh true \
-				--codec-mqa false \
+				--codec-mqa true \
 				--model-name "PiFi 4" \
 				--disable-app-security false \
 				--disable-web-security false \
