@@ -11,7 +11,7 @@ ExecStart=/usr/ifi/ifi-tidal-release/bin/tidal_connect_application \
 				--disable-app-security false \
 				--disable-web-security false \
 				--enable-mqa-passthrough false \
-				--playback-device "iBasso-DC-Series: USB Audio (hw:5,0)" \
+				--playback-device "Combo384 Amanero: USB Audio (hw:1,0)" \
 				--log-level 3 \
 				--enable-websocket-log "0"
 
