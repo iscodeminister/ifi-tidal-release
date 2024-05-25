@@ -7,11 +7,11 @@ ExecStart=/usr/ifi/ifi-tidal-release/bin/tidal_connect_application \
 				-f "SP4" \
 				--codec-mpegh true \
 				--codec-mqa true \
-				--model-name "PiFi 4" \
+				--model-name "PiFi 3" \
 				--disable-app-security false \
 				--disable-web-security false \
 				--enable-mqa-passthrough false \
-				--playback-device "Combo384 Amanero: USB Audio (hw:1,0)" \
+				--playback-device "Combo384 Amanero: USB Audio (hw:5,0)" \
 				--log-level 3 \
 				--enable-websocket-log "0"
 
