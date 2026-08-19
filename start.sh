@@ -13,5 +13,5 @@ DEVICE="USB Audio:"
 	--disable-web-security false \
 	--enable-mqa-passthrough false \
 	--playback-device "$DEVICE" \
-    --clientid "VCjoaRrbaMU005Tk" 
+    --clientid "VCjoaRrbaMU005Tk" \
 	--log-level 1 
