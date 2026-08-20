@@ -2,14 +2,15 @@
 service dbus start;
 service avahi-daemon start;
 /usr/ifi/ifi-tidal-release/bin/tidal_connect_application \
-				--tc-certificate-path "/usr/ifi/ifi-tidal-release/id_certificate/IfiAudio_ZenStream.dat" \
+				--tc-certificate-path "/usr/ifi/ifi-tidal-release/id_certificate/tcon.crt" \
 				--netif-for-deviceid eth0 \
-				-f "Rasp Tidal" \
+				-f "IFI Streamer“ \
 				--codec-mpegh true \
-			  --model-name "raspi Tidal" \
-        --codec-mqa false \
+				--codec-mqa false \
+				--model-name "Streamer" \
 				--disable-app-security false \
 				--disable-web-security false \
 				--enable-mqa-passthrough false \
-				--playback-device "snd_rpi_hifiberry_dacplus: HiFiBerry DAC+ Pro HiFi pcm512x-hifi-0 (hw:0,0)" \
+				--playback-device "Amanero" \
+				--clientid "VCjoaRrbaMU005Tk" \
 				--log-level 3
