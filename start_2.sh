@@ -2,7 +2,7 @@
 
 export LD_LIBRARY_PATH=$PWD/lib
 DEVICE="Combo384 Amanero: USB Audio (hw:0,0)"
-./bin/tidal_connect_application \
+./bin/tidalconnect \
 	--tc-certificate-path "./id_certificate/tcon.crt" \
 	--netif-for-deviceid eth0 \
 	-f "Connect Streamer" \
