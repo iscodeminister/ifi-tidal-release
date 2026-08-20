@@ -20,6 +20,11 @@ the binaries rely on the presence of some required libraries:
   * libportaudio2
   * libflac++6v5
 
+  ## for trixie
+``` bash
+apt install libflac++11
+```
+
   ## libssl1.0.0 
   go to /etc/apt
   add following line in sources.list  
